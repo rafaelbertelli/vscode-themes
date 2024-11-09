@@ -4,7 +4,7 @@
 
 - This folder contains all of the files necessary for your color theme extension.
 - `package.json` - this is the manifest file that defines the location of the theme file and specifies the base theme of the theme.
-- `themes/Shades of Life-color-theme.json` - the color theme definition file.
+- `themes/shades-of-life-color-theme.json` - the color theme definition file.
 
 ## Get up and running straight away
 
@@ -26,3 +26,42 @@ To learn more about scopes and how they're used, check out the [color theme](htt
 
 - To start using your extension with Visual Studio Code copy it into the `<user home>/.vscode/extensions` folder and restart Code.
 - To share your extension with the world, read on <https://code.visualstudio.com/docs> about publishing an extension.
+
+## Package the extention
+
+Install the vsce (Visual Studio Code Extension):
+
+```shell
+npm install -g vsce
+```
+
+In the terminal, access the folder where your theme is located.
+
+This will create a .vsix file, which is the package for your extension.
+
+```shell
+vsce package
+```
+
+## Install the extension
+
+### Manual installation
+
+You can install the theme manually from the .vsix file created in the previous step.
+
+- In Visual Studio Code, open the command palette with Cmd + Shift + P (or Ctrl + Shift + P).
+
+- Type Extensions: Install from VSIX... and select the .vsix file you created.
+
+### Using the Extension Store
+
+If you want to publish your theme to other users, you might consider publishing it to the Visual Studio Code Marketplace. You'll need an account and to follow the guide to publishing an extension.
+
+## Activate Theme
+
+After installation, you can activate your theme:
+
+- Vá para as configurações do Visual Studio Code:
+- Clique no ícone de engrenagem (⚙️) no canto inferior esquerdo.
+- Selecione "Color Theme".
+- Na lista de temas, procure "Shades of Life" e selecione-o.
