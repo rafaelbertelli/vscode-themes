@@ -1,0 +1,21 @@
+{
+  "name": "shades-of-life",
+  "displayName": "shades-of-life",
+  "description": "Explore a diversidade de emoções com 'Shades of Life', um tema que traz cores que ressoam com experiência pessoal, proporcionando um ambiente acolhedor e energizante para o seu trabalho.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Shades of Life",
+        "uiTheme": "vs-dark",
+        "path": "./themes/shades-of-life-color-theme.json"
+      }
+    ]
+  }
+}

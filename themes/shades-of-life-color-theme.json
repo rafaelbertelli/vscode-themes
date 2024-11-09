@@ -1,0 +1,155 @@
+{
+  "name": "Shades of Life",
+  "type": "dark", // pode ser "light" se preferir um tema claro
+  "colors": {
+    "editor.background": "#1d0a2f", // Cor de fundo do editor
+    "editor.foreground": "#e0e0e0", // Texto do editor
+    "editor.selectionBackground": "#5d2e81", // Fundo da seleção no editor
+    "editor.lineHighlightBackground": "#3b1a4d", // Linha em destaque
+    "editorCursor.foreground": "#ffffff", // Cor do cursor
+    "editorWhitespace.foreground": "#505050", // Cor dos espaços em branco
+    "sideBar.background": "#240e3a", // Fundo da barra lateral
+    "sideBar.foreground": "#ffffff", // Texto da barra lateral
+    "sideBarSectionHeader.background": "#3a0e57", // Cabeçalho da seção da barra lateral
+    "activityBar.background": "#240e3a", // Fundo da barra de atividades
+    "activityBar.foreground": "#e0e0e0", // Texto da barra de atividades
+    "activityBarBadge.background": "#4d2c61", // Badge na barra de atividades
+    "activityBarBadge.foreground": "#ffffff", // Texto do badge
+    "statusBar.background": "#3b1a4d", // Fundo da barra de status
+    "statusBar.foreground": "#ffffff", // Texto da barra de status
+    "titleBar.activeBackground": "#3b1a4d", // Fundo da barra de título
+    "titleBar.activeForeground": "#ffffff", // Texto da barra de título
+    "scrollbarSlider.background": "#4d2c61", // Fundo do slider da barra de rolagem
+    "scrollbarSlider.hoverBackground": "#5d2e81", // Fundo do slider ao passar o mouse
+    "scrollbarSlider.activeBackground": "#6f4a8e", // Fundo do slider ativo
+    "editorIndentGuide.background1": "#505050", // Guia de indentação
+    "editorError.foreground": "#ff3a00", // Cor dos erros
+    "editorWarning.foreground": "#ffcc00", // Cor dos avisos
+    "editorInfo.foreground": "#00ccff", // Cor das informações
+    "editorHint.foreground": "#00ff50", // Cor das dicas
+    "editorBracketMatch.background": "#6f4a8e", // Cor de correspondência de parênteses
+    "editorBracketMatch.border": "#e0e0e0", // Borda de correspondência de parênteses
+    "editorGutter.background": "#1d0a2f", // Fundo da margem do editor
+    "breadcrumb.background": "#240e3a", // Fundo do breadcrumb
+    "breadcrumb.foreground": "#e0e0e0", // Texto do breadcrumb
+    "breadcrumb.activeSelectionForeground": "#ffffff", // Texto da seleção ativa do breadcrumb
+    "breadcrumb.focusForeground": "#ffffff", // Texto do breadcrumb em foco
+    "breadcrumb.separatorForeground": "#4d2c61", // Cor do separador no breadcrumb
+    "quickInput.background": "#3b1a4d", // Fundo do Quick Pick
+    "quickInput.foreground": "#e0e0e0", // Texto no Quick Pick
+    "quickInput.selectedBackground": "#5d2e81", // Fundo do item selecionado no Quick Pick
+    "quickInput.selectedForeground": "#ffffff", // Texto do item selecionado no Quick Pick
+    "quickInput.border": "#4d2c61", // Borda do Quick Pick
+    "terminal.integrated.titleBackground": "#3b1a4d", // Fundo da barra de título do terminal
+    "terminal.integrated.titleForeground": "#ffffff", // Texto na barra de título do terminal
+    "terminal.background": "#1d0a2f", // Fundo do terminal
+    "terminal.foreground": "#e0e0e0", // Texto do terminal
+    "terminalCursor.background": "#ffffff", // Fundo do cursor do terminal
+    "terminalCursor.foreground": "#ffffff", // Cor do cursor do terminal
+    "terminal.ansiBrightBlack": "#757575", // Preto claro
+    "terminal.ansiBlack": "#000000", // Preto normal
+    "terminal.ansiRed": "#ff3a00", // Vermelho
+    "terminal.ansiGreen": "#00ff50", // Verde
+    "terminal.ansiYellow": "#ffcc00", // Amarelo
+    "terminal.ansiBlue": "#00ccff", // Azul
+    "terminal.ansiMagenta": "#880088", // Magenta
+    "terminal.ansiCyan": "#00bcd4", // Ciano
+    "terminal.ansiWhite": "#ffffff", // Branco
+    "list.hoverBackground": "#5d2e81", // Fundo ao passar o mouse sobre a lista
+    "list.background": "#240e3a", // Fundo da lista de arquivos
+    "list.foreground": "#e0e0e0", // Texto da lista de arquivos
+    "list.activeSelectionBackground": "#3b1a4d", // Fundo da seleção ativa
+    "list.activeSelectionForeground": "#ffffff", // Texto da seleção ativa
+    "list.inactiveSelectionBackground": "#4d2c61", // Fundo da seleção inativa
+    "list.inactiveSelectionForeground": "#b0b0b0", // Texto da seleção inativa
+    "tree.indentGuidesStroke": "#505050", // Cor das guias de identação na árvore do Explorer
+
+    // Configurações específicas para as abas
+    "editorGroupHeader.tabsBackground": "#240e3a", // Fundo das abas do editor
+    "editorGroupHeader.tabsBorder": "#4d2c61", // Borda das abas
+    "tabsBackground": "#240e3a", // Fundo das abas gerais
+    "tab.activeBackground": "#3b1a4d", // Fundo da aba ativa
+    "tab.activeForeground": "#ffffff", // Texto da aba ativa
+    "tab.inactiveBackground": "#1f0b35", // Fundo das abas inativas
+    "tab.inactiveForeground": "#b0b0b0", // Texto das abas inativas
+    "tab.border": "#4d2c61", // Borda das guias
+    "tab.activeBorder": "#5d2e81", // Borda da aba ativa
+    "tab.unfocusedActiveBorder": "#4d2c61", // Borda da aba ativa não focada
+    "tab.unfocusedInactiveBackground": "#2a0f3d" // Fundo das abas inativas não focadas
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#546E7A" // Cor de comentários
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": ["variable", "string constant.other.placeholder"],
+      "settings": {
+        "foreground": "#EEFFFF" // Cor para variáveis
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": ["string"],
+      "settings": {
+        "foreground": "#C3E88D" // Cor para strings
+      }
+    },
+    {
+      "name": "Keywords",
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": {
+        "foreground": "#C792EA" // Cor para palavras-chave
+      }
+    },
+    {
+      "name": "Functions",
+      "scope": ["entity.name.function", "support.function"],
+      "settings": {
+        "foreground": "#82AAFF" // Cor para funções
+      }
+    },
+    {
+      "name": "Classes",
+      "scope": ["entity.name", "support.type"],
+      "settings": {
+        "foreground": "#FFCB6B" // Cor para classes
+      }
+    },
+    {
+      "name": "Error",
+      "scope": ["invalid"],
+      "settings": {
+        "foreground": "#FF5370" // Cor para erros (invalid)
+      }
+    },
+    {
+      "name": "Numbers",
+      "scope": ["constant.numeric"],
+      "settings": {
+        "foreground": "#F78C6C" // Cor para números
+      }
+    },
+    {
+      "name": "Operators",
+      "scope": ["keyword.control", "punctuation"],
+      "settings": {
+        "foreground": "#89DDFF" // Cor para operadores
+      }
+    },
+    {
+      "name": "URL",
+      "scope": ["*url*", "*link*", "*uri*"],
+      "settings": {
+        "fontStyle": "underline",
+        "foreground": "#82AAFF" // Cor para links e URLs
+      }
+    }
+    // Continue adicionando outras cores conforme necessário
+  ]
+}
